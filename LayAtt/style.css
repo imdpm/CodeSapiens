@@ -1,0 +1,70 @@
+body{
+  background-image: url("BackIm.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#icon{
+  position: absolute;
+  left: 5px;
+  height:40px;
+  width:40px;
+}
+.topmenu{
+  background-color: #001a00;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  border-bottom: 1px solid red;
+}
+.sidemenu{
+  background-color: darkgrey;
+  color: black;
+  position: left fixed relative;
+  margin: 190px 80px 0 40px;
+  padding: 8px 6px 0 8px;
+  border: 1px solid black;
+  border-radius: 8px;
+  max-width: 155px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.banner{
+  background-color: #FFA500;
+  position: absolute;
+  top:44px;
+  left: 0;
+  right: 0;
+  height: 125px;
+  border-bottom: 1px solid #228B22;
+}
+.content{
+  background-color: #5651F3;
+  position: relative;
+  top: 60px;
+  right: 30px;
+  left: 25px;
+}
+#link{
+  color: black;
+  text-decoration: none;
+  padding: 2px 0 1px 0;
+  color:grey;
+  font-size:35px;
+  font-family:"Times New Roman";
+  font-weight:bold
+}
+a{
+  text-decoration: none;
+  color: black;
+  padding: 0;
+}
+hr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}

@@ -47,8 +47,10 @@ body{
   background-color: #5651F3;
   float: right;
   position: relative;
-  margin: 190px 0 0 0;
+  margin: 190px 0 50px 0;
   left: -80px;
+  border: 1px solid black;
+  border-radius: 8px;
   width: 1000px;
   height: 2000px;
 }

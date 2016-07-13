@@ -24,7 +24,8 @@ body{
 .sidemenu{
   background-color: darkgrey;
   color: black;
-  position: left fixed relative;
+  position: relative;
+  float: left;
   margin: 190px 80px 0 40px;
   padding: 8px 6px 0 8px;
   border: 1px solid black;
@@ -44,10 +45,12 @@ body{
 }
 .content{
   background-color: #5651F3;
+  float: right;
   position: relative;
-  top: 60px;
-  right: 30px;
-  left: 25px;
+  margin: 190px 0 0 0;
+  left: -80px;
+  width: 1000px;
+  height: 2000px;
 }
 #link{
   color: black;

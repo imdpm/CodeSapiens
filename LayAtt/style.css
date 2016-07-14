@@ -1,6 +1,5 @@
 body{
   background-image: url("BackIm.jpg");
-  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
 }
@@ -9,6 +8,9 @@ body{
   left: 5px;
   height:40px;
   width:40px;
+}
+.container{
+  display: flex;
 }
 .topmenu{
   background-color: #001a00;
@@ -24,13 +26,15 @@ body{
 .sidemenu{
   background-color: darkgrey;
   color: black;
+  flex: 1;
   position: relative;
   float: left;
   margin: 190px 80px 0 40px;
-  padding: 8px 6px 0 8px;
+  padding: 0;
   border: 1px solid black;
   border-radius: 8px;
-  width: 210px;
+  height: 330px;
+  width: 205x;
   font-size: 30px;
   font-family: sans-serif;
 }
@@ -46,9 +50,10 @@ body{
 .content{
   background-color: #5651F3;
   float: right;
+  display: block;
   position: relative;
   margin: 190px 0 50px 0;
-  left: -80px;
+  left: -40px;
   border: 1px solid black;
   border-radius: 8px;
   width: 950px;

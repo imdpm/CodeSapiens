@@ -17,7 +17,7 @@ body{
   padding: 0; margin: 0;
 }
 .topmenu{
-  background-color: #001A00;
+  background-color: #001A0F;
   position: absolute; top: 0; left: 0;
   text-align: center;
   padding: 0;margin: 0; width: 100%;
@@ -29,31 +29,26 @@ body{
   width: 100%;
 }
 .sidemenu{
-  background-color: darkgrey;
-  position: absolute; left: 10px;
+  background-color: #0F0D00;
+  position: absolute; left: 1%;
   padding: 15px 0 0 5px; margin: 0;
-  border: 1px solid black;
-  border-radius: 2px;
-  height: auto;
-  width: 25%;
-  font-size: 30px;
-  font-family: sans-serif;
+  border: 1px solid black; border-radius: 2px;
+  height: auto; width: 15%;
+  font-size: 30px; font-family: sans-serif;
 }
 .sidemenu hr{
   padding: 0; margin: 5px 0 15px 0;
 }
 .banner{
   background-color: #FFA500;
-  height: 125px;
-  width: 100%;
+  height: auto; width: 100%;
   border-bottom: 1px solid #228B22;
 }
 .content{
   background-color: #5651F3;
-  position: relative; float: right; right: 10px;
-  border: 1px solid black;
-  border-radius: 2px;
-  width: 70%; height: auto;
+  position: absolute; left: 17.5%;
+  border: 1px solid black; border-radius: 2px;
+  width: 82%; height: auto;
 }
 div h1{
   font-size:60px;

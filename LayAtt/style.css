@@ -1,80 +1,81 @@
 body{
   background-image: url("BackIm.jpg");
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
+  height:auto; width:100%;
+  margin: 0; padding: 0;
 }
 #icon{
   position: absolute;
-  left: 5px;
+  left: 5px; top: 0;
   height:40px;
   width:40px;
 }
 .container{
-  display: flex;
+  position: absolute;
+  height:100%; width:100%;
+  padding: 0; margin: 0;
 }
 .topmenu{
-  background-color: #001a00;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  padding: 0;
+  background-color: #001A00;
+  position: absolute; top: 0; left: 0;
+  text-align: center;
+  padding: 0;margin: 0; width: 100%;
   border-bottom: 1px solid red;
+}
+#main{
+  display: block;
+  position: absolute; top: 180px; left: 0;
+  width: 100%;
 }
 .sidemenu{
   background-color: darkgrey;
-  color: black;
-  flex: 1;
-  position: relative;
-  float: left;
-  margin: 190px 80px 0 40px;
-  padding: 0;
+  position: absolute; left: 10px;
+  padding: 15px 0 0 5px; margin: 0;
   border: 1px solid black;
-  border-radius: 8px;
-  height: 330px;
-  width: 205x;
+  border-radius: 2px;
+  height: auto;
+  width: 25%;
   font-size: 30px;
   font-family: sans-serif;
 }
+.sidemenu hr{
+  padding: 0; margin: 5px 0 15px 0;
+}
 .banner{
   background-color: #FFA500;
-  position: absolute;
-  top:44px;
-  left: 0;
-  right: 0;
   height: 125px;
+  width: 100%;
   border-bottom: 1px solid #228B22;
 }
 .content{
   background-color: #5651F3;
-  float: right;
-  display: block;
-  position: relative;
-  margin: 190px 0 50px 0;
-  left: -40px;
+  float: left;
+  position: relative; left: 180px;
   border: 1px solid black;
-  border-radius: 8px;
-  width: 950px;
-  height: 2000px;
+  border-radius: 2px;
+  width: 65%; height: auto;
+}
+div h1{
+  font-size:60px;
+  text-align:center; vertical-align: middle;
 }
 #link{
-  color: black;
   text-decoration: none;
   padding: 2px 0 1px 0;
-  color:grey;
+
   font-size:35px;
   font-family:"Times New Roman";
   font-weight:bold
 }
+.footer{
+	clear: both;
+  position: absolute; bottom: 0; left: 0;
+  margin: 0; padding: 2px; width: 100%;
+	background: #1A446C; color: #D4E6F4;
+}
 a{
   text-decoration: none;
-  color: black;
+  color: #0D6F9F; font-size: 15px;
   padding: 0;
-}
-hr{
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }

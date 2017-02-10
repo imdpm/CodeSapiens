@@ -50,11 +50,10 @@ body{
 }
 .content{
   background-color: #5651F3;
-  float: left;
-  position: relative; left: 180px;
+  position: relative; float: right; right: 10px;
   border: 1px solid black;
   border-radius: 2px;
-  width: 65%; height: auto;
+  width: 70%; height: auto;
 }
 div h1{
   font-size:60px;
@@ -71,8 +70,11 @@ div h1{
 .footer{
 	clear: both;
   position: absolute; bottom: 0; left: 0;
-  margin: 0; padding: 2px; width: 100%;
+  margin: 0; width: 100%;
 	background: #1A446C; color: #D4E6F4;
+}
+.footer h2{
+  text-align: center;
 }
 a{
   text-decoration: none;

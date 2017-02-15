@@ -1,18 +1,17 @@
 body{
-  background-image: url("BackIm.jpg");
+  background-image: url("backIm.jpg");
   background-attachment: fixed;
-  background-size: cover;
+  background-size: contain;
   height:auto; width:100%;
   margin: 0; padding: 0;
 }
 #icon{
   position: absolute;
   left: 5px; top: 0;
-  height:40px;
-  width:40px;
+  height:40px; width:40px;
 }
 .container{
-  position: absolute;
+  position: absolute; display: block;
   height:100%; width:100%;
   padding: 0; margin: 0;
 }
@@ -22,6 +21,11 @@ body{
   text-align: center;
   padding: 0;margin: 0; width: 100%;
   border-bottom: 1px solid red;
+}
+.banner{
+  background-color: #FFA500;
+  height: auto; width: 100%;
+  border-bottom: 1px solid #228B22;
 }
 #main{
   display: block;
@@ -39,22 +43,17 @@ body{
 .sidemenu hr{
   padding: 0; margin: 5px 0 15px 0;
 }
-.banner{
-  background-color: #FFA500;
-  height: auto; width: 100%;
-  border-bottom: 1px solid #228B22;
-}
 .content{
   background-color: #5651F3;
-  position: absolute; left: 17.5%;
+  position: absolute; left: 17.5%; right:auto;
   border: 1px solid black; border-radius: 2px;
-  width: 82%; height: auto;
+  width: 81%; height: 2000px;
 }
 div h1{
   font-size:60px;
   text-align:center; vertical-align: middle;
 }
-#link{
+.link{
   text-decoration: none;
   padding: 2px 0 1px 0;
 
